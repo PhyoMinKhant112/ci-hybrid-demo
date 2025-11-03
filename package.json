@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PhyoMinKhant112/ci-hybrid-demo/issues"
   },
-  "homepage": "https://github.com/PhyoMinKhant112/ci-hybrid-demo#readme"
+  "homepage": "https://github.com/PhyoMinKhant112/ci-hybrid-demo#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
 }
